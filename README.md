@@ -5,9 +5,13 @@ The RISC-V processor in this project is designed with a pipelined architecture, 
 
 ### The 5 stages of the pipeline are as follows:
 **1.IF (Instruction Fetch):** Fetches instructions from memory - implemented in ```IF.v```
+
 **2.ID (Instruction Decode):** Decodes instructions and reads register values - implemented in ```ID.v```
+
 **3.EX (Execute):** Performs arithmetic and logic operations - implemented in ```EX.v```
+
 **4.MEM (Memory Access):** Handles memory operations (load and store) - implemented in ```EX_MEM.v```
+
 **5.WB (Write Back):** Writes the results back to registers - implemented in ```MEM_WB.v```
 
 These 5 stages are linked together using pipe registers to create the complete processor in ```RISC_V_COMPLETE.v```
