@@ -16,7 +16,7 @@ The RISC-V processor in this project is designed with a pipelined architecture, 
 
 These 5 stages are linked together using pipe registers to create the complete processor in ```RISC_V_COMPLETE.v```
 
-### How to use:
+## How to use:
 Clone the repository, then use a Verilog simulator to simulate the ```RISC_V_COMPLETE_TB``` file.
 If you own a copy of Xylinx Vivado, just open the ```RISC_V_IF_ID.xpr``` project file and from the environment select ```Run Behavioral Simulation```
 
